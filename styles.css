@@ -1,0 +1,127 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #111;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('https://assets.onecompiler.app/439zjx7cq/439zjpbmw/DALL%C2%B7E%202025-02-24%2012.27.32%20-%20A%20luxurious%20wristwatch%20on%20a%20sleek%20dark%20background.%20The%20watch%20has%20a%20gold%20and%20black%20finish%20with%20soft%20lighting%20reflecting%20off%20its%20glass.%20The%20background%20i.webp') center/cover no-repeat;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.shop-btn {
+    background: gold;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.shop-btn:hover {
+    background: darkgoldenrod;
+}
+
+/* Products Section */
+.products {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 180px;
+    border-radius: 5px;
+}
+
+/* About and Contact Sections */
+.about, .contact {
+    text-align: center;
+    padding: 50px;
+    background: #111;
+    color: white;
+}
+
+.about h2, .contact h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.about p, .contact p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
